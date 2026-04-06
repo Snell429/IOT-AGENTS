@@ -156,16 +156,4 @@ test.ps1
 docker-compose.yml
 ```
 
-## GitHub Ready
 
-Le depot est pret pour une presentation plus propre sur GitHub avec :
-
-- documentation d'architecture
-- licence MIT
-- assets media versionnes pour la vitrine README
-- script de demo GitHub
-- workflow CI GitHub Actions
-- logs et monitoring utiles pour review/demo
-- `.gitignore` propre
-
-Avant publication, remplacez simplement le badge GitHub par l'URL reelle du depot.
