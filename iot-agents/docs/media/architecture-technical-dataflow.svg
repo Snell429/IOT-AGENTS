@@ -1,0 +1,101 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1800" height="1200" fill="#F6F1E8"/>
+  <rect x="40" y="40" width="1720" height="1120" rx="32" fill="#FFFCF8" stroke="#D8CFC3"/>
+  <rect x="80" y="76" width="1640" height="110" rx="26" fill="url(#g1)"/>
+  <rect x="118" y="108" width="690" height="28" rx="14" fill="#223139"/>
+  <rect x="118" y="150" width="832" height="16" rx="8" fill="#768389"/>
+
+  <rect x="108" y="250" width="264" height="156" rx="28" fill="#FFF7EF" stroke="#E2D6C9"/>
+  <rect x="412" y="250" width="326" height="156" rx="28" fill="#F2FAFB" stroke="#C5D9DD"/>
+  <rect x="778" y="250" width="292" height="156" rx="28" fill="#FFF2E7" stroke="#E7CDBB"/>
+  <rect x="1110" y="250" width="268" height="156" rx="28" fill="#F7FBFC" stroke="#CFDADF"/>
+  <rect x="1418" y="250" width="268" height="156" rx="28" fill="#F7FBFC" stroke="#CFDADF"/>
+
+  <rect x="132" y="282" width="128" height="16" rx="8" fill="#2A7B87"/>
+  <rect x="132" y="318" width="182" height="24" rx="12" fill="#223139"/>
+  <rect x="132" y="356" width="196" height="14" rx="7" fill="#98A4AA"/>
+
+  <rect x="444" y="282" width="132" height="16" rx="8" fill="#2A7B87"/>
+  <rect x="444" y="318" width="242" height="24" rx="12" fill="#223139"/>
+  <rect x="444" y="356" width="222" height="14" rx="7" fill="#98A4AA"/>
+
+  <rect x="810" y="282" width="116" height="16" rx="8" fill="#D06A3C"/>
+  <rect x="810" y="318" width="206" height="24" rx="12" fill="#4B301F"/>
+  <rect x="810" y="356" width="190" height="14" rx="7" fill="#AF8A73"/>
+
+  <rect x="1142" y="282" width="108" height="16" rx="8" fill="#2A7B87"/>
+  <rect x="1142" y="318" width="178" height="24" rx="12" fill="#223139"/>
+  <rect x="1142" y="356" width="182" height="14" rx="7" fill="#98A4AA"/>
+
+  <rect x="1450" y="282" width="142" height="16" rx="8" fill="#2A7B87"/>
+  <rect x="1450" y="318" width="178" height="24" rx="12" fill="#223139"/>
+  <rect x="1450" y="356" width="182" height="14" rx="7" fill="#98A4AA"/>
+
+  <path d="M372 328H412" stroke="#D06A3C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M738 328H778" stroke="#D06A3C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1070 328H1110" stroke="#2A7B87" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1378 328H1418" stroke="#2A7B87" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="404,328 384,316 384,340" fill="#D06A3C"/>
+  <polygon points="770,328 750,316 750,340" fill="#D06A3C"/>
+  <polygon points="1102,328 1082,316 1082,340" fill="#2A7B87"/>
+  <polygon points="1410,328 1390,316 1390,340" fill="#2A7B87"/>
+
+  <rect x="108" y="466" width="1578" height="306" rx="30" fill="#FFFDF9" stroke="#DED5C9"/>
+  <rect x="142" y="500" width="378" height="18" rx="9" fill="#223139"/>
+  <rect x="142" y="536" width="632" height="16" rx="8" fill="#96A1A7"/>
+
+  <rect x="142" y="590" width="230" height="140" rx="24" fill="#FFFFFF" stroke="#E6DDD2"/>
+  <rect x="398" y="590" width="230" height="140" rx="24" fill="#FFFFFF" stroke="#E6DDD2"/>
+  <rect x="654" y="590" width="230" height="140" rx="24" fill="#FFFFFF" stroke="#E6DDD2"/>
+  <rect x="910" y="590" width="230" height="140" rx="24" fill="#FFFFFF" stroke="#E6DDD2"/>
+  <rect x="1166" y="590" width="230" height="140" rx="24" fill="#FFFFFF" stroke="#E6DDD2"/>
+  <rect x="1422" y="590" width="230" height="140" rx="24" fill="#FFFFFF" stroke="#E6DDD2"/>
+
+  <rect x="164" y="618" width="86" height="14" rx="7" fill="#D06A3C"/>
+  <rect x="164" y="646" width="154" height="18" rx="9" fill="#4B301F"/>
+  <rect x="164" y="680" width="178" height="12" rx="6" fill="#B59A88"/>
+
+  <rect x="420" y="618" width="86" height="14" rx="7" fill="#D06A3C"/>
+  <rect x="420" y="646" width="154" height="18" rx="9" fill="#4B301F"/>
+  <rect x="420" y="680" width="178" height="12" rx="6" fill="#B59A88"/>
+
+  <rect x="676" y="618" width="86" height="14" rx="7" fill="#D06A3C"/>
+  <rect x="676" y="646" width="154" height="18" rx="9" fill="#4B301F"/>
+  <rect x="676" y="680" width="178" height="12" rx="6" fill="#B59A88"/>
+
+  <rect x="932" y="618" width="86" height="14" rx="7" fill="#D06A3C"/>
+  <rect x="932" y="646" width="154" height="18" rx="9" fill="#4B301F"/>
+  <rect x="932" y="680" width="178" height="12" rx="6" fill="#B59A88"/>
+
+  <rect x="1188" y="618" width="86" height="14" rx="7" fill="#2A7B87"/>
+  <rect x="1188" y="646" width="154" height="18" rx="9" fill="#223139"/>
+  <rect x="1188" y="680" width="178" height="12" rx="6" fill="#99A5AB"/>
+
+  <rect x="1444" y="618" width="86" height="14" rx="7" fill="#2A7B87"/>
+  <rect x="1444" y="646" width="154" height="18" rx="9" fill="#223139"/>
+  <rect x="1444" y="680" width="178" height="12" rx="6" fill="#99A5AB"/>
+
+  <rect x="108" y="816" width="1018" height="296" rx="30" fill="#F4FAFB" stroke="#C8D9DE"/>
+  <rect x="1148" y="816" width="538" height="296" rx="30" fill="#FDF7EF" stroke="#E4D4C6"/>
+  <rect x="144" y="850" width="272" height="18" rx="9" fill="#223139"/>
+  <rect x="144" y="886" width="464" height="16" rx="8" fill="#95A3A8"/>
+  <rect x="144" y="940" width="938" height="22" rx="11" fill="#E6F0F2"/>
+  <rect x="144" y="980" width="814" height="22" rx="11" fill="#E6F0F2"/>
+  <rect x="144" y="1020" width="690" height="22" rx="11" fill="#E6F0F2"/>
+
+  <rect x="1184" y="850" width="208" height="18" rx="9" fill="#4B301F"/>
+  <rect x="1184" y="886" width="286" height="16" rx="8" fill="#A48370"/>
+  <rect x="1184" y="940" width="430" height="22" rx="11" fill="#F4E5D8"/>
+  <rect x="1184" y="980" width="378" height="22" rx="11" fill="#F4E5D8"/>
+  <rect x="1184" y="1020" width="320" height="22" rx="11" fill="#F4E5D8"/>
+
+  <text x="118" y="107" fill="#223139" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Architecture technique + flux de donnees</text>
+  <text x="118" y="154" fill="#66737A" font-family="Segoe UI, Arial, sans-serif" font-size="20">Vue une page : front HTTP, bus Redis Streams, routage, agents objets, observabilite et cycle complet d'une commande.</text>
+
+  <defs>
+    <linearGradient id="g1" x1="80" y1="76" x2="1720" y2="186" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7F0"/>
+      <stop offset="1" stop-color="#F1FAFB"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,71 @@
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: smart-home-redis
+    ports:
+      - "${REDIS_PORT}:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  coordinator:
+    build: .
+    container_name: smart-home-coordinator
+    command: uvicorn smart_home.coordinator.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+    ports:
+      - "${COORDINATOR_PORT}:8000"
+
+  ui-agent:
+    build: .
+    container_name: smart-home-ui-agent
+    command: uvicorn smart_home.ui_agent.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+    ports:
+      - "${UI_AGENT_PORT}:8000"
+
+  lamp-agent:
+    build: .
+    container_name: smart-home-lamp-agent
+    command: uvicorn smart_home.lamp_agent.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+    ports:
+      - "${LAMP_AGENT_PORT}:8000"
+
+  plug-agent:
+    build: .
+    container_name: smart-home-plug-agent
+    command: uvicorn smart_home.plug_agent.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+    ports:
+      - "${PLUG_AGENT_PORT}:8000"
+
+  thermostat-agent:
+    build: .
+    container_name: smart-home-thermostat-agent
+    command: uvicorn smart_home.thermostat_agent.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+    ports:
+      - "${THERMOSTAT_AGENT_PORT}:8000"

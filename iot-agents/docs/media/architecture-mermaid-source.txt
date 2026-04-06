@@ -1,0 +1,43 @@
+flowchart LR
+    user[Utilisateur / Navigateur]
+
+    subgraph frontend[Couche d'entree]
+        ui[ui-agent<br/>FastAPI<br/>Dashboard + API /command]
+    end
+
+    subgraph bus[Bus d'evenements]
+        redis[(Redis Streams<br/>a2a_bus)]
+    end
+
+    subgraph core[Coordination]
+        coordinator[coordinator<br/>Parsing langage naturel<br/>Routage des commandes]
+    end
+
+    subgraph devices[Agents objets]
+        lamp[lamp-agent<br/>/state /metrics /dump]
+        plug[plug-agent<br/>/state /metrics /dump]
+        thermo[thermostat-agent<br/>/state /metrics /dump]
+    end
+
+    user -->|HTTP GET /| ui
+    user -->|HTTP POST /command| ui
+    user -->|HTTP GET /monitoring/overview| ui
+
+    ui -->|Publie nl.command| redis
+    redis -->|Consomme nl.command| coordinator
+
+    coordinator -->|Publie device.command| redis
+    redis -->|Commande lampe| lamp
+    redis -->|Commande prise| plug
+    redis -->|Commande thermostat| thermo
+
+    lamp -->|Publie device.result| redis
+    plug -->|Publie device.result| redis
+    thermo -->|Publie device.result| redis
+
+    redis -->|Retour device.result| ui
+
+    ui -. collecte healthz/metrics/state .-> coordinator
+    ui -. collecte healthz/metrics/state .-> lamp
+    ui -. collecte healthz/metrics/state .-> plug
+    ui -. collecte healthz/metrics/state .-> thermo
